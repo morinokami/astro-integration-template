@@ -7,7 +7,7 @@ on:
     branches: ["main"]
 
 jobs:
-  biome:
+  validate:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -19,4 +19,5 @@ jobs:
           node-version: 20
           cache: "pnpm"
       - run: pnpm install --frozen-lockfile
+      - run: pnpm run typecheck
       - run: pnpm run biome:ci

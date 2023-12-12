@@ -18,7 +18,8 @@
   ],
   "scripts": {
     "build": "tsc",
-    "biome:ci": "biome ci ./src"
+    "biome:ci": "biome ci ./src",
+    "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
     "@biomejs/biome": "1.4.1",
