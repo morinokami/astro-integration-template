@@ -4,8 +4,8 @@
   "private": true,
   "packageManager": "pnpm@8.15.4",
   "scripts": {
-    "build": "pnpm --filter astro-integration build",
     "dev": "pnpm --filter astro-project dev",
+    "build": "pnpm --filter astro-integration build",
     "biome": "pnpm --filter astro-integration biome:ci",
     "typecheck": "pnpm --filter astro-integration typecheck"
   }
