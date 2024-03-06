@@ -9,7 +9,7 @@
   },
   "packageManager": "pnpm@8.15.4",
   "scripts": {
-    "dev": "pnpm --filter astro-project dev",
+    "dev": "pnpm --filter playground dev",
     "build": "pnpm --filter astro-integration build",
     "biome": "pnpm --filter astro-integration biome:ci",
     "typecheck": "pnpm --filter astro-integration typecheck"

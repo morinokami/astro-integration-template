@@ -25,13 +25,14 @@
     "dist"
   ],
   "scripts": {
-    "build": "tsc",
+    "build": "tsup",
     "biome:ci": "biome ci ./src",
     "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
     "@biomejs/biome": "1.5.3",
     "astro": "4.4.12",
+    "tsup": "^8.0.2",
     "typescript": "5.3.3"
   },
   "peerDependencies": {
