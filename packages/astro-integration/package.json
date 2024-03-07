@@ -26,7 +26,6 @@
   ],
   "scripts": {
     "build": "tsup",
-    "biome:ci": "biome ci ./src",
     "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
