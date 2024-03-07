@@ -10,8 +10,11 @@
   "packageManager": "pnpm@8.15.4",
   "scripts": {
     "dev": "pnpm --filter playground dev",
-    "build": "pnpm --filter astro-integration build",
-    "biome": "pnpm --filter astro-integration biome:ci",
-    "typecheck": "pnpm --filter astro-integration typecheck"
+    "biome:ci": "biome ci packages/astro-integration/src",
+    "typecheck": "pnpm --filter astro-integration typecheck",
+    "build": "pnpm --filter astro-integration build"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.5.3"
   }
 }

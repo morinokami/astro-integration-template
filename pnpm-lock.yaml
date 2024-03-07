@@ -6,13 +6,14 @@ settings:
 
 importers:
 
-  .: {}
+  .:
+    devDependencies:
+      '@biomejs/biome':
+        specifier: ^1.5.3
+        version: 1.5.3
 
   packages/astro-integration:
     devDependencies:
-      '@biomejs/biome':
-        specifier: 1.5.3
-        version: 1.5.3
       astro:
         specifier: 4.4.12
         version: 4.4.12(typescript@5.3.3)
