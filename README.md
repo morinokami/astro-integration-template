@@ -1,3 +1,1 @@
-# astro-integration-template
-
-This is my template for Astro integrations.
+packages/astro-integration/README.md
