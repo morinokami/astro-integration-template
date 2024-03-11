@@ -15,6 +15,6 @@
     "build": "pnpm --filter astro-integration build"
   },
   "devDependencies": {
-    "@biomejs/biome": "^1.5.3"
+    "@biomejs/biome": "^1.6.0"
   }
 }
