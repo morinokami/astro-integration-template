@@ -25,15 +25,13 @@
     "dist"
   ],
   "scripts": {
-    "build": "bun run build.ts && bun run build:declaration",
-    "build:declaration": "tsc --emitDeclarationOnly --project tsconfig.types.json",
+    "build": "tsup",
     "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
-    "@types/bun": "^1.0.8",
-    "astro": "4.4.12",
-    "bun-plugin-dts": "^0.2.1",
-    "typescript": "5.3.3"
+    "astro": "4.5.4",
+    "tsup": "^8.0.2",
+    "typescript": "5.4.2"
   },
   "peerDependencies": {
     "astro": "^4.0.0"
