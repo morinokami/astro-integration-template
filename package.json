@@ -7,14 +7,17 @@
     "type": "git",
     "url": "https://github.com/morinokami/astro-integration-template.git"
   },
-  "packageManager": "pnpm@8.15.4",
+  "workspaces": [
+    "packages/astro-integration",
+    "playground"
+  ],
   "scripts": {
-    "dev": "pnpm --filter playground dev",
+    "dev": "bun run --cwd playground dev",
     "biome:ci": "biome ci packages/astro-integration/src",
-    "typecheck": "pnpm --filter astro-integration typecheck",
-    "build": "pnpm --filter astro-integration build"
+    "typecheck": "bun run --cwd packages/astro-integration typecheck",
+    "build": "bun run --cwd packages/astro-integration build"
   },
   "devDependencies": {
-    "@biomejs/biome": "^1.6.0"
+    "@biomejs/biome": "^1.6.1"
   }
 }
