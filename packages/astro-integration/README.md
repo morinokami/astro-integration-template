@@ -7,7 +7,7 @@ The template comes with:
 - [Bun](https://bun.sh/) for installing dependencies and managing a workspace.
 - [Biome](https://biomejs.dev/) for linting and formatting.
 - [GitHub Actions](https://docs.github.com/en/actions) for CI.
-- [Dependabot version updates](https://docs.github.com/en/code-security/dependabot/dependabot-version-updates/about-dependabot-version-updates) for automatically keeping dependencies up to date.
+<!-- - [Dependabot version updates](https://docs.github.com/en/code-security/dependabot/dependabot-version-updates/about-dependabot-version-updates) for automatically keeping dependencies up to date. -->
 
 ## Setup
 
