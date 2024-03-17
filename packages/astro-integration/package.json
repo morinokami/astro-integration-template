@@ -29,7 +29,7 @@
     "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
-    "astro": "4.5.4",
+    "astro": "4.5.5",
     "tsup": "^8.0.2",
     "typescript": "5.4.2"
   },
