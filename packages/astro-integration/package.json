@@ -29,9 +29,9 @@
     "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
-    "astro": "4.5.4",
-    "tsup": "^8.0.2",
-    "typescript": "5.4.2"
+    "astro": "4.12.2",
+    "tsup": "^8.2.0",
+    "typescript": "5.5.3"
   },
   "peerDependencies": {
     "astro": "^4.0.0"
