@@ -17,21 +17,22 @@
     "astro-integration"
   ],
   "exports": {
-    ".": "./dist/index.js",
-    "./package.json": "./package.json"
+    ".": "./dist/index.mjs"
   },
-  "types": "./dist/index.d.ts",
+  "main": "./dist/index.mjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.mts",
   "files": [
     "dist"
   ],
   "scripts": {
-    "build": "tsup",
+    "build": "unbuild",
     "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
     "astro": "5.7.4",
-    "tsup": "8.4.0",
-    "typescript": "5.8.3"
+    "typescript": "5.8.3",
+    "unbuild": "3.5.0"
   },
   "peerDependencies": {
     "astro": ">=5.0.0"
