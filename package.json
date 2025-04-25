@@ -1,15 +1,7 @@
 {
-	"name": "astro-integration-template",
-	"version": "0.0.0",
-	"type": "module",
 	"private": true,
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/morinokami/astro-integration-template.git"
-	},
-	"bugs": {
-		"url": "https://github.com/morinokami/astro-integration-template/issues"
-	},
+	"name": "astro-integration-template",
+	"type": "module",
 	"workspaces": ["packages/astro-integration", "playground"],
 	"scripts": {
 		"dev": "bun run --cwd playground dev",
