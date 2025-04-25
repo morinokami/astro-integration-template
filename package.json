@@ -8,10 +8,14 @@
 		"biome:ci": "biome ci packages/astro-integration/src",
 		"typecheck": "bun run --cwd packages/astro-integration typecheck",
 		"build": "bun run --cwd packages/astro-integration build",
-		"publint": "bun run --cwd packages/astro-integration publint"
+		"publint": "bun run --cwd packages/astro-integration publint",
+		"knip": "knip"
 	},
 	"devDependencies": {
 		"@biomejs/biome": "1.9.4",
-		"pkg-pr-new": "0.0.43"
+		"@types/node": "22.15.2",
+		"knip": "5.50.5",
+		"pkg-pr-new": "0.0.43",
+		"typescript": "5.8.3"
 	}
 }
