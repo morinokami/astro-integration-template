@@ -12,5 +12,8 @@
   "dependencies": {
     "astro": "5.7.4",
     "astro-integration": "workspace:*"
+  },
+  "devDependencies": {
+    "@astrojs/check": "0.9.4"
   }
 }
