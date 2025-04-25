@@ -1,16 +1,19 @@
 {
 	"name": "astro-integration",
-	"description": "Astro integration",
 	"version": "0.0.1",
-	"type": "module",
+	"description": "Astro integration",
+	"keywords": ["astro", "withastro", "astro-component", "astro-integration"],
 	"author": "Shinya Fujino <shf0811@gmail.com> (https://github.com/morinokami)",
 	"license": "MIT",
+	"type": "module",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/morinokami/astro-integration-template.git",
+		"url": "git+https://github.com/morinokami/astro-integration-template.git",
 		"directory": "packages/astro-integration"
 	},
-	"keywords": ["astro", "withastro", "astro-component", "astro-integration"],
+	"bugs": {
+		"url": "https://github.com/morinokami/astro-integration-template/issues"
+	},
 	"exports": {
 		".": "./dist/index.mjs"
 	},
@@ -24,6 +27,7 @@
 	},
 	"devDependencies": {
 		"astro": "5.7.4",
+		"publint": "0.3.12",
 		"typescript": "5.8.3",
 		"unbuild": "3.5.0"
 	},
