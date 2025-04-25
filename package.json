@@ -12,7 +12,8 @@
 		"dev": "bun run --cwd playground dev",
 		"biome:ci": "biome ci packages/astro-integration/src",
 		"typecheck": "bun run --cwd packages/astro-integration typecheck",
-		"build": "bun run --cwd packages/astro-integration build"
+		"build": "bun run --cwd packages/astro-integration build",
+		"publint": "bun run --cwd packages/astro-integration publint"
 	},
 	"devDependencies": {
 		"@biomejs/biome": "1.9.4",

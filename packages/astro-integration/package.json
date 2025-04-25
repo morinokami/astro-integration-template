@@ -24,6 +24,7 @@
 	},
 	"devDependencies": {
 		"astro": "5.7.4",
+		"publint": "0.3.12",
 		"typescript": "5.8.3",
 		"unbuild": "3.5.0"
 	},
