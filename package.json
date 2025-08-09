@@ -15,7 +15,7 @@
 		"@biomejs/biome": "1.9.4",
 		"@types/node": "22.15.21",
 		"knip": "5.57.0",
-		"pkg-pr-new": "0.0.50",
+		"pkg-pr-new": "0.0.54",
 		"typescript": "5.8.3"
 	}
 }
