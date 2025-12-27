@@ -28,7 +28,7 @@
 	"devDependencies": {
 		"astro": "5.16.6",
 		"publint": "0.3.16",
-		"tsdown": "0.14.2",
+		"tsdown": "0.18.3",
 		"typescript": "5.9.3"
 	},
 	"peerDependencies": {
