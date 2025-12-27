@@ -16,6 +16,6 @@
 		"@types/node": "24.2.1",
 		"knip": "5.62.0",
 		"pkg-pr-new": "0.0.54",
-		"typescript": "5.9.2"
+		"typescript": "5.9.3"
 	}
 }
