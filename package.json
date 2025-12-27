@@ -14,7 +14,7 @@
 	"devDependencies": {
 		"@biomejs/biome": "1.9.4",
 		"@types/node": "24.2.1",
-		"knip": "5.62.0",
+		"knip": "5.78.0",
 		"pkg-pr-new": "0.0.62",
 		"typescript": "5.9.3"
 	}
