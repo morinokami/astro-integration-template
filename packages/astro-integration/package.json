@@ -34,7 +34,7 @@
 	},
 	"devDependencies": {
 		"astro": "5.16.6",
-		"publint": "0.3.16",
+		"publint": "0.3.18",
 		"tsdown": "0.18.3",
 		"typescript": "5.9.3"
 	},
